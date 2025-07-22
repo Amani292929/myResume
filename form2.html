@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Example</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <form>
+    <h2>Forms In HTML</h2>
+
+    <label>First Name:</label>
+    <input type="text" required />
+
+    <label>Middle Name:</label>
+    <input type="text" disabled />
+
+    <label>Last Name:</label>
+    <input type="text" />
+    <br><br>
+
+    <label>Age:</label>
+    <input type="number" />
+    <br><br>
+
+    <label>Email:</label>
+    <input type="email" />
+    <br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" />
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" />
+    <br><br>
+
+    <p>Shirt Size:</p>
+    <input type="radio" name="shirtsize" id="small" />
+    <label for="small">Small</label>
+    <input type="radio" name="shirtsize" id="medium" checked />
+    <label for="medium">Medium</label>
+    <input type="radio" name="shirtsize" id="large" />
+    <label for="large">Large</label>
+
+    <p>Languages Known:</p>
+    <input type="checkbox" id="telugu" />
+    <label for="telugu">Telugu</label>
+    <input type="checkbox" id="english" />
+    <label for="english">English</label>
+    <input type="checkbox" id="hindi" checked />
+    <label for="hindi">Hindi</label>
+    <input type="checkbox" id="korean" />
+    <label for="korean">Korean</label>
+    <br><br>
+
+    <label for="color">Shirt Color:</label>
+    <input type="color" id="color" />
+
+    <label for="paymethod">Payment Method:</label>
+    <select id="paymethod">
+      <option value="cod">Cash on Delivery</option>
+      <option value="phonepe">PhonePe</option>
+      <option value="paytm">PayTM</option>
+      <option value="bank">Bank Transfer</option>
+    </select>
+    <br><br>
+
+    <label for="comment">Feedback:</label>
+    <textarea id="comment" rows="4" cols="30" placeholder="Enter your feedback here"></textarea>
+    <br><br>
+    <input type="reset" />
+    <input type="submit" />
+  </form>
+
+</body>
+</html>
